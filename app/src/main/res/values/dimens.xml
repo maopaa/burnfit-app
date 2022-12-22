@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="card_height">145dp</dimen>
+    <dimen name="card_width">120dp</dimen>
+
+    <dimen name="plan_height">225dp</dimen>
+    <dimen name="plan_width">350dp</dimen>
+
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "584213045535",
+    "firebase_url": "https://burnfit-2caa6.firebaseio.com",
+    "project_id": "burnfit-2caa6",
+    "storage_bucket": "burnfit-2caa6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584213045535:android:6481afb74c99fe98",
+        "android_client_info": {
+          "package_name": "com.mortega.burnfit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584213045535-54j2h1771pflmr9n9np1hvrlqmufhd4l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mortega.burnfit",
+            "certificate_hash": "68f917baec6e68b662c03c38393700d670d05991"
+          }
+        },
+        {
+          "client_id": "584213045535-jodkst3ad5mp2rinua0gaf9hd29opjh1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_7h1quqYzvIM4BHJyk3Wf7Ihr6PODsjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584213045535-jodkst3ad5mp2rinua0gaf9hd29opjh1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

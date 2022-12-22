@@ -1,0 +1,83 @@
+<resources>
+    <!-- PREFERENCE MANAGER STRING -->
+    <string name="my_preference">com.mortega.kagemanager.MyPref</string>
+    <string name="my_preference_key">com.mortega.kagemanager.MyPrefKey</string>
+
+    <!-- APP NAME AND STRINGS FRAGMENTS -->
+    <string name="app_name">BurnFit</string>
+    <string name="textEmail">Inicio de sesión con Email</string>
+    <string name="textGoogle">Inicio de sesión con Google</string>
+    <string name="tvOne">Inicia tu entrenamiento. Disfruta de tus retos.</string>
+    <string name="tvTwo">Ponte en forma como nunca antes</string>
+    <string name="tvSignIn">Vuelve a utilizarnos.</string>
+    <string name="inicioButton">Iniciar Sesión</string>
+    <string name="emailTextInput">Correo electrónico</string>
+    <string name="passwordTextInput">Contraseña</string>
+    <string name="registrarseButton">Registrarse</string>
+    <string name="back_button">Volver atrás</string>
+    <string name="nameTextInput">Nombre del usuario</string>
+    <string name="passwordRepeatInputText">Repite la contraseña</string>
+    <string name="registerNow">Registrarse ahora</string>
+    <string name="tvRegister">Empieza ahora</string>
+    <string name="tvImc">Introduce tus datos para adaptar las rutinas de tu dia a dia</string>
+    <string name="imcButton">Calcular IMC</string>
+    <string name="edadTextInput">Introduce tu edad</string>
+    <string name="pesoTextInput">Introduce tu peso (kg)</string>
+    <string name="alturaTextInput">Introduce tu altura (cm)</string>
+    <string name="tvGenero">Selecciona el género adecuado</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+
+    <!-- MAIN MENU -->
+    <string name="infoGrasa">49gr.</string>
+    <string name="infoProtein">111gr.</string>
+    <string name="infoCH">277gr.</string>
+    <string name="grasas">Grasas</string>
+    <string name="proteinas">Proteinas</string>
+    <string name="ch">Carbohidratos</string>
+    <string name="calTotales">25000</string>
+    <string name="kgTotales">-4.25 kg</string>
+    <string name="userName">Nombre usuario</string>
+    <string name="emailTV">correo electronico</string>
+    <string name="tvGasto">Gasto medio de alimentos diarios</string>
+    <string name="tvCal">Gráfica de calorias</string>
+    <string name="tvMain">Pantalla de monitorización</string>
+    <string name="tvconsumir">Calorias que debes de consumir hoy</string>
+    <string name="datoCalActual">1250</string>
+    <string name="CalDiario">2210</string>
+    <string name="kcal">kcal</string>
+    <string name="tvObject">El objetivo seleccionado es:</string>
+    <string name="objetivoTextView">Mantener mi peso</string>
+    <string name="tvActivity">Actividad total en este mes</string>
+    <string name="trainingButton">Entrenamiento diario</string>
+    <string name="tvList">Límite de calorías: </string>
+    <string name="modificarButton">Modificar listado</string>
+    <string name="buttonAccept">Aceptar entrenamiento</string>
+    <string name="empezarButton">Empezar ejercicio</string>
+    <string name="pararButton">Parar tiempo</string>
+    <string name="infoTimer">Has conseguido hacer un tiempo de...</string>
+    <string name="repeatButton">Volver a empezar</string>
+    <string name="pasarButton">Pasar al siguiente ejercicio</string>
+    <string name="numTraining">Actividad Física:</string>
+    <string name="InfoTrainingName">Tipo de ejercicio</string>
+    <string name="goChronometer">Ir al cronómetro</string>
+    <string name="descriptionLose">Este consumo diario de calorías te permitirá perder 0,5 - 1 kg por semana de una
+        forma sana y sostenible
+    </string>
+    <string name="loseWeight">Perder peso</string>
+    <string name="keepWeight">Mantener peso</string>
+    <string name="descriptionKeep">Este consumo diario de calorías te permitirá mantener tu peso</string>
+    <string name="gainWeight">Ganar peso</string>
+    <string name="descriptionGain">Este consumo diario de calorías te permitirá ganar 0,5 - 1 kg por semana de una forma
+        sana y sostenible
+    </string>
+    <string name="terminar_registro_de_datos">Terminar registro de datos</string>
+    <string name="tvPlan">Selecciona un plan de entrenamiento según tus objetivos</string>
+    <string name="InfoUserSetting">Informacion del usuario</string>
+    <string name="exitPopUp">Cerrar ventana</string>
+    <string name="sedentario">Sedentario</string>
+    <string name="ligeramente_activo">Ligeramente activo</string>
+    <string name="moderado">Moderado</string>
+    <string name="muy_activo">Muy Activo</string>
+    <string name="atleta">Atleta</string>
+    <string name="tvFiltro">Selecciona tu tipo de actividad actual</string>
+</resources>

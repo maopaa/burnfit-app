@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="350dp"
+              android:layout_height="475dp"
+              android:background="@drawable/border_gradient_main"
+              android:padding="5dp"
+              android:layout_gravity="center">
+    <LinearLayout
+            android:layout_width="324dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" android:layout_gravity="center" android:layout_marginTop="11dp">
+        <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/colorAccent"
+                android:id="@+id/usernamePopUp" android:textAlignment="center" android:textSize="27sp"
+                android:fontFamily="@font/rubik_medium" android:layout_marginTop="12dp"/>
+        <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorDark"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/emailPopUp" android:textAlignment="center" android:fontFamily="@font/rubik_medium"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_marginTop="25dp"
+            android:orientation="vertical"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content" android:gravity="center" android:layout_gravity="center">
+        <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="310dp"
+                android:layout_height="64dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Calorias quemadas hoy:"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorAccent" android:textStyle="bold"
+                    android:fontFamily="@font/rubik_medium"/>
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorDark" android:textStyle="bold"
+                    android:fontFamily="@font/rubik_medium" android:text="" android:id="@+id/calQuemadas"/>
+        </LinearLayout>
+        <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="310dp"
+                android:layout_height="64dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Calorias totales quemadas:"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorAccent" android:textStyle="bold"
+                    android:fontFamily="@font/rubik_medium"/>
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorDark" android:textStyle="bold"
+                    android:fontFamily="@font/rubik_medium"
+                    android:id="@+id/calTotalesQuemada"/>
+        </LinearLayout>
+        <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="310dp"
+                android:layout_height="64dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ejercicios totales:"
+                    android:textSize="15sp"
+                    android:textColor="@color/colorTextButtonTwo" android:textStyle="bold"
+                    android:fontFamily="@font/rubik_medium"/>
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorDark" android:textStyle="bold"
+                    android:fontFamily="@font/rubik_medium"
+                    android:id="@+id/ejerciciosTotales"/>
+        </LinearLayout>
+        <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="310dp"
+                android:layout_height="64dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tu objetivo seleccionado es..."
+                    android:textSize="15sp"
+                    android:textColor="@color/colorDark" android:textStyle="bold"
+                    android:fontFamily="@font/rubik_medium"/>
+            <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:textColor="@color/colorAccent" android:textStyle="bold"
+                    android:fontFamily="@font/rubik_medium"
+                    android:id="@+id/objetivoSeleccionado"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/signout"
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cerrar_sesion"
+            android:background="@drawable/button_gradient"
+            android:textColor="@color/colorTextButtonOne" android:textStyle="bold" android:gravity="center"
+            android:fontFamily="@font/rubik_medium" android:layout_gravity="center" android:layout_marginTop="40dp"/>
+
+</LinearLayout>

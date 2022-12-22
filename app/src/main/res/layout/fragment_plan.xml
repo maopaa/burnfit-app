@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="@color/colorPrimary">
+
+    <androidx.appcompat.widget.AppCompatTextView android:layout_width="337dp"
+                                                 android:layout_height="0dp"
+                                                 card_view:layout_constraintTop_toTopOf="parent"
+                                                 card_view:layout_constraintStart_toStartOf="parent"
+                                                 android:layout_marginStart="8dp" android:layout_marginEnd="8dp"
+                                                 card_view:layout_constraintEnd_toEndOf="parent"
+                                                 android:layout_marginTop="28dp"
+                                                 android:textAlignment="center"
+                                                 android:gravity="center" android:textColor="@color/colorAccent"
+                                                 android:textStyle="bold" android:textSize="19sp"
+                                                 android:text="@string/tvPlan"/>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="371dp"
+            android:layout_height="550dp" card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/linearLayout7" android:gravity="center_vertical" android:layout_marginTop="76dp"
+            card_view:layout_constraintTop_toTopOf="parent">
+
+        <com.mortega.burnfit.util.CheckablePlan
+                android:id="@+id/loseWeight"
+                android:layout_width="350dp"
+                android:layout_height="161dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                card_view:type_text="@string/loseWeight"
+                card_view:description="@string/descriptionLose"
+                android:layout_marginStart="10dp" android:layout_marginTop="15dp" card_view:cardCornerRadius="9dp"/>
+
+        <com.mortega.burnfit.util.CheckablePlan
+                android:id="@+id/keepWeight"
+                android:layout_width="350dp"
+                android:layout_height="161dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                card_view:type_text="@string/keepWeight"
+                card_view:description="@string/descriptionKeep"
+                android:layout_marginStart="10dp" android:layout_marginTop="15dp" card_view:cardCornerRadius="9dp"/>
+
+        <com.mortega.burnfit.util.CheckablePlan
+                android:id="@+id/gainWeight"
+                android:layout_width="350dp"
+                android:layout_height="161dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                card_view:type_text="@string/gainWeight"
+                card_view:description="@string/descriptionGain"
+                android:layout_marginStart="10dp" android:layout_marginTop="15dp" card_view:cardCornerRadius="9dp"/>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/terminarRegistro"
+            android:layout_width="360dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="8dp"
+            card_view:layout_constraintTop_toBottomOf="@+id/linearLayout7"
+            android:layout_marginBottom="8dp"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintVertical_bias="0.193"
+            android:background="@drawable/button_gradient"
+            card_view:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/rubik_medium" android:textSize="16sp"
+            android:textStyle="bold" android:textColor="@color/colorPrimary"
+            android:text="@string/terminar_registro_de_datos"
+            card_view:layout_constraintHorizontal_bias="0.47"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

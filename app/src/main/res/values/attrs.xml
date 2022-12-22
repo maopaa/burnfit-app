@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CheckableGender">
+        <attr name="card_text" format="string|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CheckableFilter">
+        <attr name="card_filter" format="string|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CheckablePlan">
+        <attr name="type_text" format="string|reference"/>
+        <attr name="cal_limit" format="string|reference"/>
+        <attr name="description" format="string|reference"/>
+    </declare-styleable>
+</resources>
